@@ -1,1 +1,1 @@
-# Tool for generating cryptographic keys using Key Derivation Function
+# Tool for generating cryptographic keys using Key Derivation Function (KDF)
