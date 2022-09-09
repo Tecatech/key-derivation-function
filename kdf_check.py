@@ -1,8 +1,8 @@
 from Crypto.Random import get_random_bytes
-from kdf import *
-
 import json
 import struct
+
+from kdf import *
 
 def int_to_bytes(x: int) -> bytes:
     return x.to_bytes((x.bit_length() + 7) // 8, 'big')

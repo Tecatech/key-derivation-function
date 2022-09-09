@@ -1,5 +1,4 @@
 from Crypto.Random import get_random_bytes
-
 import hashlib
 import struct
 

@@ -1,5 +1,5 @@
-from matplotlib import pyplot as plt
 import json
+from matplotlib import pyplot as plt
 
 def weather_hist():
     with open('data/weather.json', 'r') as file:
