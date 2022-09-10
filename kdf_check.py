@@ -22,7 +22,7 @@ def hkdf_check():
     lastKey = None
     CTX = b'Dimarik'
     keys = []
-    for i in range(1001):
+    for i in range(1000):
         lastKey = HkdfExpand(PRK, lastKey, CTX, int_to_bytes(i))
         keys.append(lastKey)
     
