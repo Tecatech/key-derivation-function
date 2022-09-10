@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from Crypto.Random import get_random_bytes
 import json
 import struct
